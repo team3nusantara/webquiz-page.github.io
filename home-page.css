@@ -127,7 +127,7 @@ body {
     margin-right: auto !important;
     margin-top: 2px !important;
     margin-bottom: 3px !important;
-    border: 3px black;
+    border: 3px solid black;
 }
 
 /*footer*/
