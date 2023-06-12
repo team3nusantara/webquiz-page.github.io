@@ -112,8 +112,8 @@ body {
 }
 
 .main-container .navigation .btn-primary:hover {
-    color: rgb(147, 19, 176);
-    transition: all .3s ease-in-out;
+    color: rgb(147, 19, 176) !important;
+    transition: all .3s ease-in-out !important;
 }
 
 .main-container aside {
@@ -123,11 +123,12 @@ body {
 }
 
 .hp{
-    width: 60% !important;
+    width: 100% !important;
     margin-right: auto !important;
     margin-top: 2px !important;
     margin-bottom: 3px !important;
-    border: 3px solid black;
+    border: 2px solid black;
+    opacity: unset;
 }
 
 /*footer*/
