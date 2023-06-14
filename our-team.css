@@ -1,9 +1,9 @@
 .navbar {
-    height: 150px;
+    height: 113px;
 }
 
 .Gambar-Navbar {
-    margin-left: 150%;
+    margin: 220%;
 }
 
 body {
@@ -15,21 +15,23 @@ body {
 .Logo {
     position: absolute;
     margin-left: 182px;
-    margin-top: -113px;
+    margin-top: 14px;
 }
 
 .p1 {
     text-align: justify;
-    width: 1000px;
+    width: 602px;
     height: 309px;
-    margin-top: 253px;
-    margin-left: 1150px;
+    margin-top: 70px;
+    margin-left: 720px;
     margin-right: 118px;
 }
 
 .p2 {
     text-align: justify;
-    margin-top: 208px;
+    width: 1256px;
+    height: 404px;
+    margin-top: 95px;
     margin-left: 118px;
     margin-right: 66px;
 }
