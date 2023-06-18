@@ -1,0 +1,37 @@
+.navbar {
+  background-color:#9A0081;
+}
+
+.Gambar-Navbar img{
+  margin-left: 570px;
+  width:150px;
+  height: auto;
+}
+
+.container-options {
+  margin-left: 360px;
+}
+
+.btn-grid {
+  padding: 10px;
+  display: flex;
+  width: 788px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  width: 322px;
+  height: 86px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color:#FFC726;
+  border-radius: 50%;
+  display: inline-block;
+}
