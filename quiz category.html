@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz Wiz - Home Page</title>
+    <link rel="stylesheet" href="quiz category.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  </head>
+
+ 
+<!-- ***** ISI ***** -->
+  <body>
+    
+    <header>
+      <div class="fContainer">
+          <nav class="wrapper">
+              <img class= "brand-logo" src="nama.png" width="160" height="80">
+            <ul class="navigation">
+                  <li>
+                    <a class="nama" href="home-page.html">Home</a>
+                  </li>
+                  <li>
+                    <a class="nama" href="">Search</a>
+                  </li>
+                  <li>
+                  <a class="nama" href="">Help</a>
+                  </li>
+            </ul>
+            <div class="menu-container">
+              <div class="button">
+                 <span class="fas fa-bars"></span>
+              </div>
+              <ul class="ul">
+                 <li><a href="#">Our Team</a></li>
+                 <li><a href="#">Setting</a></li>
+                 <li><a href="#">Feedback</a></li>
+              </ul>
+            </div>
+            <div>
+          </nav>
+        </div> 
+    </header>
+
+    <hr class="h">
+    <div class="main-container">
+        <h1>QUIZ CATEGORY</h1>
+        <div class="container">
+            <a href="home-page.html" class="item" ><img src="our category\1.png"  ></a>
+            <a href="home-page.html" class="item" ><img src="our category/8.png" ></a>
+            <a href="home-page.html" class="item" ><img src="our category/13.png" ></a>
+            <a href="home-page.html" class="item" ><img src="our category/16.png" ></a>
+            <a href="home-page.html" class="item" ><img src="our category/3.png" ></a>
+            <a href="home-page.html" class="item" ><img src="our category/12.png" ></a>
+            <a href="home-page.html" class="item" ><img src="our category/5.png" ></a>
+            <a href="home-page.html" class="item" ><img src="our category/10.png" ></a>
+        </div>
+        
+    </div>
+    <hr class="h">
+
+
+
+    <script >
+      $(document).ready(function(){
+           $('.button').click(function(){
+             if($(this).hasClass('expand')){
+               $('.ul').slideUp(function(){
+                 $('.button').removeClass('expand');
+                 $('.fas').removeClass('expand')
+               });
+             }else{
+               $(this).addClass('expand');
+               setTimeout(function(){
+                 $('.fas').addClass('expand');
+                 $('.ul').stop().slideDown();
+               },200);
+             }
+           });
+         });
+    </script>
+  
+  
+  </body>
+</html>
