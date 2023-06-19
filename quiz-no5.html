@@ -3,32 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/quiz-no5.css">
+    <title>Quiz Time!!! - Quiz Wiz</title>
 </head>
 <body>
-    <header><img src="quiz-no5/Nama kuis.png" alt="quiz-section-page8" width="100"></header>
-    <div>
-        <h2>Your Points :</h2>
-        <p>100</p>
-    </div>
-    <div>
-        <h2>Time :</h2>
-        <p>60</p>
-    </div>
-    <div>
-        <h3>Masa keruntuhan kerajaan Majapahit terjadi setelah wafatnya</h3>
-        <h4><img src="quiz-no5/majapahit.jpg" alt="quiz-section-page8" width="500"></h4>
-        <div class="container">
-            <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Gajah Mada dan Hayam Wuruk</button>
-                <button class="btn">Purnawarman</button>
-                <button class="btn">Mulawarman</button>
-                <button class="btn">Rakai Pikatan</button>
+    
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-sm sticky-top bg-warning">
+            <div class="container">
+              <a class="navbar-brand" href="home-page.html">
+                <div class="Gambar-Navbar">
+                  <img src="Image/nama.png" class="Nama-Bar">
+                </div>
+              </a>
             </div>
+          </nav>
+        <div class="main">
+          <div class="Time">
+              <h2> Time </h2>
+              <span class="dot">60s</span>
+          </div>
+          <div class="question">
+            <h3>Masa keruntuhan kerajaan Majapahit terjadi setelah wafatnya...</h3>
+            <h4><img src="Image/majapahit.jpg" alt="quiz-section-page8" width="425"></h4>
+            <div class="container-options">
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn1">Gajah Mada dan Hayam Wuruk</button>
+                    <button class="btn2">Purnawarman</button>
+                    <button class="btn3">Mulawarman</button>
+                    <button class="btn4">Rakai Pikatan</button>
+                </div>
+          </div>
+          </div>
+          <div class="point">
+            <h2> Your Points </h2>
+            <span class="dot">0</span>
+            <a id="next-btn" href="result.html"><img src="Image/Vector.png" width="60" height="45"></a>
         </div>
-    </div>
-    <a href="result.html">Finish</a>
-    <script src="./script.js"></script>
+        </div>        
+    <script src="JS/quiz-page.js"></script>
 </body>
 </html>
