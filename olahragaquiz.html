@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image/logo.png" type="image/x-icon">
+    <title>Go Go Go!!!</title>
+    <link rel="stylesheet" href="CSS/start-quiz.css">
+    <link rel="stylesheet" href="CSS/historyquiz.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progresstext" class="hud-prefix">
+                        Question
+                    </p>
+                    <div id="progressbar">
+                        <div id="progressbarfull"></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h1 id="question">answer the question</h1  >
+            <div class="choice-container">
+                <p class="choice-prefix"></p>
+                <p class="choice-text" data-number="1">choice</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix"></p>
+                <p class="choice-text" data-number="2">choice</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix"></p>
+                <p class="choice-text" data-number="3">choice</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix"></p>
+                <p class="choice-text" data-number="4">choice</p>
+            </div>
+        </div>
+    </div>
+    <script src="JS/olahragaquiz.js"></script>
+</body>
+</html>
