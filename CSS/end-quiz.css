@@ -68,6 +68,9 @@ body{
     height: 45px;
 }
 #finalScore{
+    font: italic 40pt bold;
+    font-family:'Franklin Gothic Medium' ;
+    margin-top:20px ;
     width: 298px;
     height: 100px;
     border:3px solid black;
