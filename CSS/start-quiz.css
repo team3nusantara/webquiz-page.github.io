@@ -1,0 +1,87 @@
+:root {
+    background-color: lightgray;
+  }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 7rem;
+  margin-left: center;
+}
+
+h2 {
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+}
+
+.container {
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 84rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  font-size: 2.4rem;
+  padding: 2rem 0;
+  width: 30rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-left: center;
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(90deg, darkorange 0%, darkorange 100%);
+  border-radius: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 darkgoldenrod;
+  transition: transform 150ms;
+  transform: scale(1.0);
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+#result-btn {
+  background: linear-gradient(90deg, rgb(230, 177, 34)0%, rgb(224, 170, 25)100%);
+
+}

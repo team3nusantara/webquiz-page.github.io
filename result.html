@@ -3,27 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Result</title>
+    <link rel="icon" href="Image/logo.png" type="image/x-icon">
+    <title>High Scores</title>
+    <link rel="stylesheet" href="CSS/start-quiz.css">
     <link rel="stylesheet" href="CSS/result.css">
 </head>
 <body>
-    <div class="header">
-        <div class="nama-quiz">
-            <img src="Image/nama.png">
+    <div class="container">
+        <div id="highScores" class="flex-center flex-column">
+            <h1 id="finalScore">Leaderboard</h1>
+            <ul id="highScoresList"></ul>
+            <a href="home-page.html" class="btn">Go Home<i class="fas fa-home"></i></a>
         </div>
     </div>
-    <div class="main">
-        <div class="congrats">
-            <img id="icon" src="Image/trophy.png" >
-        </div>
-        <div class="result">
-            <div class="text1"><p>Your Points</p></div>
-            <div class="points"><p>400</p></div>
-            <div class="homelink">
-                <a href="home-page.html"><img src="Image/home.png"></a>
-            </div>
-        </div>
-    </div>
-    <script src="./result.js"> </script>
+    <script src="JS/result.js"></script>
 </body>
 </html>
